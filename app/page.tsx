@@ -1,9 +1,9 @@
 const links = [
-  { label: "Instagram", href: "https://www.instagram.com/dr.chistearruabarrena/", icon: "◎" },
-  { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61593611543467", icon: "◌" },
-  { label: "WhatsApp", href: "https://wa.me/message/DFEARCGPWY55L1", icon: "✆" },
-  { label: "Correo", href: "mailto:consultas@dr-chistearruabarrena.com", icon: "@" },
-  { label: "Consulta", href: "#pendiente", icon: "✦" }
+  { label: "Instagram", href: "https://www.instagram.com/dr.chistearruabarrena/", icon: "/instagram.svg" },
+  { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61593611543467", icon: "/facebook.svg" },
+  { label: "WhatsApp", href: "https://wa.me/message/DFEARCGPWY55L1", icon: "/whatsapp.svg" },
+  { label: "Correo", href: "mailto:consultas@dr-chistearruabarrena.com", icon: "/correo.svg" },
+  { label: "Consulta", href: "#pendiente", icon: "/consulta.svg" }
 ];
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <nav className="links" aria-label="Enlaces principales">
         {links.map((link) => (
           <a className="link-button" href={link.href} key={link.label} target={link.href.startsWith("http") ? "_blank" : undefined} rel={link.href.startsWith("http") ? "noreferrer" : undefined}>
-            <span className="link-icon" aria-hidden="true">{link.icon}</span>
+            <img className="link-icon" src={link.icon} alt="" aria-hidden="true" />
             <span className="link-label">{link.label}</span>
             <span className="link-arrow" aria-hidden="true">›</span>
           </a>
