@@ -17,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ededeb;
+  background: #e7eceb url('/aca-pattern.png') center / 620px auto fixed;
   color: var(--ink);
   font-family: "Manrope", sans-serif;
 }
@@ -28,20 +28,41 @@ img { max-width: 100%; display: block; }
   width: min(100%, 480px);
   min-height: 100vh;
   padding: 26px 18px 28px;
-  background: var(--paper);
+  position: relative;
+  overflow: hidden;
+  background: rgba(244, 243, 239, 0.96);
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
+.page-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: url('/aca-pattern.png') center / 580px auto;
+  opacity: 0.035;
+}
+.page-shell > * { position: relative; }
 
 .brand-stage {
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  padding-bottom: 26px;
+  padding-bottom: 28px;
+}
+.brand-frame {
+  width: min(74vw, 290px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #fff;
+  border: 8px solid #fff;
+  box-shadow: 0 12px 28px var(--shadow), 0 0 0 2px rgba(73, 200, 215, 0.25);
 }
 .brand-logo {
-  width: min(80vw, 320px);
+  width: 100%;
   height: auto;
-  filter: drop-shadow(0 6px 14px rgba(13, 47, 115, 0.12));
 }
 
 .links {
@@ -56,12 +77,12 @@ img { max-width: 100%; display: block; }
   min-height: 64px;
   padding: 0 14px 0 12px;
   border-radius: 16px;
-  background: rgba(255,255,255,0.72);
+  background: rgba(255,255,255,0.88);
   border: 2px solid rgba(13, 47, 115, 0.08);
   box-shadow: 0 2px 10px rgba(13, 47, 115, 0.04);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
-.link-button:hover { transform: translateY(-1px); box-shadow: 0 8px 18px rgba(13,47,115,0.08); }
+.link-button:hover { transform: translateY(-1px); border-color: rgba(73, 200, 215, 0.6); box-shadow: 0 8px 18px rgba(13,47,115,0.08); }
 
 .link-icon {
   display: grid;

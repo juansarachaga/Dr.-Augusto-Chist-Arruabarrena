@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <main className="page-shell">
       <div className="brand-stage" aria-label="Marca ACA">
-        <img src="/aca-logo.png" alt="ACA - Augusto Chisté Arruabarrena" className="brand-logo" />
+        <div className="brand-frame">
+          <img src="/aca-logo.png" alt="ACA - Augusto Chisté Arruabarrena" className="brand-logo" />
+        </div>
       </div>
 
       <nav className="links" aria-label="Enlaces principales">
