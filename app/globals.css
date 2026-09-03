@@ -47,10 +47,10 @@ img { max-width: 100%; display: block; }
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  padding-bottom: 28px;
+  padding-bottom: 18px;
 }
 .brand-frame {
-  width: min(74vw, 290px);
+  width: min(58vw, 220px);
   aspect-ratio: 1;
   display: grid;
   place-items: center;
