@@ -121,6 +121,12 @@ img { max-width: 100%; display: block; }
   }
 }
 
+@media (min-width: 601px) {
+  body { background: var(--navy-strong); }
+  .page-shell { background: var(--paper); }
+  .page-shell::before { display: none; }
+}
+
 @media (max-width: 360px) {
   .page-shell { padding-inline: 14px; }
   .link-button { grid-template-columns: 40px 1fr 20px; padding-inline: 10px; }
