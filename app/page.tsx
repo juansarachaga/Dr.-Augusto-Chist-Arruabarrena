@@ -1,7 +1,7 @@
 const links = [
   { label: "Instagram", href: "https://www.instagram.com/dr.chistearruabarrena/", icon: "◎" },
   { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61593611543467", icon: "◌" },
-  { label: "WhatsApp", href: "#pendiente", icon: "✆" },
+  { label: "WhatsApp", href: "https://wa.me/message/DFEARCGPWY55L1", icon: "✆" },
   { label: "Correo", href: "mailto:consultas@dr-chistearruabarrena.com", icon: "@" },
   { label: "Consulta", href: "#pendiente", icon: "✦" }
 ];
