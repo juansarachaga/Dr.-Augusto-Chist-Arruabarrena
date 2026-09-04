@@ -17,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #e7eceb url('/aca-pattern.png') center / 620px auto fixed;
+  background: #e7eceb;
   color: var(--ink);
   font-family: "Manrope", sans-serif;
 }
