@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Comunidad Malu | La Plata",
-  description: "Acogimiento familiar, voluntariado y acompanamiento en La Plata.",
+  title: "ACA | Augusto Chisté Arruabarrena",
+  description: "Augusto Chisté Arruabarrena - Cirugía Plástica.",
   icons: {
     icon: "/favicon.ico"
   }

@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "ACA - Augusto Chisté Arruabarrena",
+    name: "ACA | Augusto Chisté Arruabarrena",
     short_name: "ACA",
-    description: "Cirugía Plástica",
+    description: "Augusto Chisté Arruabarrena - Cirugía Plástica.",
     start_url: "/",
     display: "standalone",
     orientation: "portrait",
