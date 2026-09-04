@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Facebook">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#084F8E"/><stop offset="55%" stop-color="#167EAA"/><stop offset="100%" stop-color="#2BB8BE"/></linearGradient></defs>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#084F8E"/>
+      <stop offset="55%" stop-color="#167EAA"/>
+      <stop offset="100%" stop-color="#2BB8BE"/>
+    </linearGradient>
+  </defs>
   <rect x="8" y="8" width="240" height="240" rx="48" fill="url(#bg)"/>
-  <path d="M143 69h30V37h-30c-31 0-50 19-50 53v19H69v34h24v76h38v-76h32l5-34h-37V93c0-16 6-24 12-24z" fill="#fff"/>
+  <path fill="#FFFFFF" d="M145 60H167V89H154C146 89 142 94 142 103V113H167L163 142H142V196H111V142H90V113H111V100C111 74 126 60 145 60Z"/>
 </svg>
