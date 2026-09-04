@@ -155,7 +155,7 @@ img { max-width: 100%; display: block; }
   .page-shell::before { display: block; }
   .brand-stage { padding: 0 0 14px; }
   .brand-frame { width: min(42vw, 230px); }
-  .links { gap: 10px; max-width: 560px; }
+  .links { width: min(100%, 560px); gap: 10px; margin: 0 auto; }
   .link-button { min-height: 52px; }
   .link-icon { width: 31px; height: 31px; }
 }
