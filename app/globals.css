@@ -137,6 +137,25 @@ img { max-width: 100%; display: block; }
   .page-shell::before { display: none; }
 }
 
+@media (orientation: landscape) and (max-height: 600px) {
+  body { align-items: flex-start; }
+  .page-shell {
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    margin: 0;
+    padding: 16px 24px 20px;
+    border-radius: 0;
+    background: rgba(244, 243, 239, 0.96);
+  }
+  .page-shell::before { display: block; }
+  .brand-stage { padding: 0 0 14px; }
+  .brand-frame { width: min(42vw, 230px); }
+  .links { gap: 10px; max-width: 560px; }
+  .link-button { min-height: 52px; }
+  .link-icon { width: 31px; height: 31px; }
+}
+
 @media (max-width: 360px) {
   .page-shell { padding-inline: 14px; }
   .link-button { grid-template-columns: 40px 1fr 20px; padding-inline: 10px; }
