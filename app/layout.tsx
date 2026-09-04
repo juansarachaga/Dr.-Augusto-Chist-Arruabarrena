@@ -4,6 +4,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Comunidad Malu | La Plata",
   description: "Acogimiento familiar, voluntariado y acompanamiento en La Plata.",
+  colorScheme: "light",
+  themeColor: "#f4f3ef",
   icons: {
     icon: "/favicon.ico"
   }

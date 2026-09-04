@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
 
 :root {
+  color-scheme: light;
   --navy: #0d2f73;
   --navy-strong: #0b234b;
   --teal: #49c8d7;
