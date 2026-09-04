@@ -51,11 +51,11 @@ img { max-width: 100%; display: block; }
 }
 .brand-frame {
   width: min(72vw, 300px);
-  aspect-ratio: 1;
+  aspect-ratio: 619 / 220;
   display: grid;
   place-items: center;
   overflow: hidden;
-  border-radius: 18px;
+  border-radius: 12px;
   background: #fff;
   border: 1px solid rgba(73, 200, 215, 0.24);
   box-shadow: 0 12px 28px var(--shadow);
@@ -132,7 +132,7 @@ img { max-width: 100%; display: block; }
     border-radius: 28px;
   }
   .brand-stage { padding: 0; }
-  .brand-frame { width: min(29vw, 300px); }
+  .brand-frame { width: min(37vw, 390px); }
   .links { width: 100%; }
   .page-shell::before { display: none; }
 }
