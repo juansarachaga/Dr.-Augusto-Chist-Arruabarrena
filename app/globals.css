@@ -50,8 +50,8 @@ img { max-width: 100%; display: block; }
   padding-bottom: 18px;
 }
 .brand-frame {
-  width: min(88vw, 390px);
-  aspect-ratio: 619 / 220;
+  width: min(72vw, 300px);
+  aspect-ratio: 1;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -63,6 +63,7 @@ img { max-width: 100%; display: block; }
 .brand-logo {
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .links {
@@ -131,7 +132,7 @@ img { max-width: 100%; display: block; }
     border-radius: 28px;
   }
   .brand-stage { padding: 0; }
-  .brand-frame { width: min(37vw, 390px); }
+  .brand-frame { width: min(29vw, 300px); }
   .links { width: 100%; }
   .page-shell::before { display: none; }
 }
