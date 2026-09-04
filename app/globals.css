@@ -120,7 +120,20 @@ img { max-width: 100%; display: block; }
 
 @media (min-width: 601px) {
   body { background: var(--navy-strong); }
-  .page-shell { background: var(--paper); }
+  .page-shell {
+    width: min(92vw, 980px);
+    min-height: 620px;
+    display: grid;
+    grid-template-columns: minmax(300px, 0.9fr) minmax(380px, 1.1fr);
+    align-items: center;
+    gap: clamp(38px, 7vw, 92px);
+    padding: 58px clamp(42px, 7vw, 88px);
+    background: var(--paper);
+    border-radius: 28px;
+  }
+  .brand-stage { padding: 0; }
+  .brand-frame { width: min(29vw, 300px); }
+  .links { width: 100%; }
   .page-shell::before { display: none; }
 }
 

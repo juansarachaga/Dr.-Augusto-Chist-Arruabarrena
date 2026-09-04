@@ -2,8 +2,7 @@ const links = [
   { label: "Instagram", href: "https://www.instagram.com/dr.chistearruabarrena/", icon: "/instagram.svg" },
   { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61593611543467", icon: "/facebook.svg" },
   { label: "WhatsApp", href: "https://wa.me/message/DFEARCGPWY55L1", icon: "/whatsapp.svg" },
-  { label: "Correo", href: "mailto:consultas@dr-chistearruabarrena.com", icon: "/correo.svg" },
-  { label: "Consulta", href: "#pendiente", icon: "/consulta.svg" }
+  { label: "Correo", href: "mailto:consultas@dr-chistearruabarrena.com", icon: "/correo.svg" }
 ];
 
 export default function Home() {
