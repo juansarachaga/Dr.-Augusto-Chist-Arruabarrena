@@ -3,7 +3,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Comunidad Malu | La Plata",
-  description: "Acogimiento familiar, voluntariado y acompanamiento en La Plata."
+  description: "Acogimiento familiar, voluntariado y acompanamiento en La Plata.",
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
