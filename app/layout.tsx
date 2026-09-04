@@ -1,14 +1,17 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Comunidad Malu | La Plata",
   description: "Acogimiento familiar, voluntariado y acompanamiento en La Plata.",
-  colorScheme: "light",
-  themeColor: "#f4f3ef",
   icons: {
     icon: "/favicon.ico"
   }
+};
+
+export const viewport: Viewport = {
+  colorScheme: "light",
+  themeColor: "#f4f3ef"
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
